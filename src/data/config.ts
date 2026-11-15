@@ -29,7 +29,7 @@ export const config = {
   relationshipStartDate: '2025-04-15',
   letter: `Happy monthsary, baby.
 
-I know today didn't go exactly as I originally planned. I was really looking forward to taking you ice skating, and I imagined all the little moments we'd have together.
+I know today didn't go exactly as I originally planned. I was really looking forward to taking you ice skating, and I imagined all the moments we'd have together.
 
 But more than anything, I want you to know that it's never really about where we go or what we do.
 
@@ -37,7 +37,7 @@ It's about being with you.
 
 Even if our plans change, even if we end up doing something simple, even if all we do is sit beside each other and laugh about random things, I'd still choose that day with you.
 
-I love discovering new things with you, making memories, trying things for the first time, and having those little moments that become our favorite memories.
+I love discovering new things with you, making memories, trying things for the first time, and having those quiet moments that become our favorite memories.
 
 I hope today reminds you how loved, appreciated, and special you are to me.
 
@@ -47,7 +47,7 @@ I love you. Happy monthsary, my favorite person. ♡`,
   photos: [
     { src: '/images/her_laugh.jpeg', alt: 'Janeille smiling and laughing', caption: 'That natural laugh I love.', rotate: '-2deg' },
     { src: '/images/uslookingdumb.jpeg', alt: 'A funny photo of us together', caption: 'Us being completely unserious.', rotate: '2.5deg' },
-    { src: '/images/ussmilinglikethetwocats.jpeg', alt: 'A playful photo of us together', caption: 'Two silly little faces.', rotate: '-1deg' },
+    { src: '/images/ussmilinglikethetwocats.jpeg', alt: 'A playful photo of us together', caption: 'Two silly faces.', rotate: '-1deg' },
     { src: '/images/picjah1.png', alt: 'A favorite portrait memory', caption: 'You make every frame feel warmer.', rotate: '-1.5deg' },
   ] satisfies Photo[],
   loveNotes: [
@@ -87,7 +87,7 @@ export const activities: Activity[] = [
     name: "TE'AMO CAFÉ",
     location: 'Juana Osmeña Street, Cebu City',
     concept: 'A creative café date',
-    description: "Let's turn something simple into a little masterpiece. And even if our creations look funny, at least we made them together.",
+    description: "Let's turn something simple into a masterpiece. And even if our creations look funny, at least we made them together.",
     image: '/images/activity-cafe.svg',
     activities: ['Cake painting', 'Decorating desserts', 'DIY flower arrangement'],
   },
@@ -96,7 +96,7 @@ export const activities: Activity[] = [
     name: 'CEBU MAKING SPACE',
     location: 'Mango Square, Cebu City',
     concept: 'A pottery and ceramics experience',
-    description: "Let's make something that we can keep. Something that reminds us of this little chapter of our story.",
+    description: "Let's make something that we can keep. Something that reminds us of this chapter of our story.",
     image: '/images/activity-pottery.svg',
     activities: ['Hand-building pottery', 'Creating matching mugs', 'Ceramic painting'],
   },

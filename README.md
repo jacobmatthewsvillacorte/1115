@@ -1,4 +1,4 @@
-# Our Little Monthsary
+# Our Monthsary
 
 A romantic, mobile-first React/Vite love letter made for Janeille.
 
