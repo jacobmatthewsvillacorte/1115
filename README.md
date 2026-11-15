@@ -6,9 +6,9 @@ A romantic, mobile-first React/Vite love letter made for Janeille.
 
 Edit [`src/data/config.ts`](./src/data/config.ts). It contains names, dates, the letter, gallery captions, love notes, timeline entries, the song filename, and all four activity cards. Relationship details that were not available are intentionally left as placeholders.
 
-Replace the placeholder images in `public/images/` with your own files and update the `src` values in `config.ts`. Add your local song as `public/music/ang-wakas.mp3` (or change `music.filename`). The player never autoplays.
+Replace the placeholder images in `public/images/` with your own files and update the `src` values in `config.ts`. Add your local song as `public/music/ang-wakas.mp3` (or change `music.filename`). To use a hosted MP3 like the anniversary site, paste its URL into `music.url` instead. The player never autoplays.
 
-Activity prices are intentionally editable estimates. Confirm prices, availability, accessibility, travel, and booking details with each establishment before visiting.
+Confirm availability, accessibility, travel, and booking details with each establishment before visiting.
 
 ## Run locally
 

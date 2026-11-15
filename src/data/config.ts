@@ -12,7 +12,6 @@ export type Activity = {
   concept: string;
   description: string;
   image: string;
-  budget: string;
   activities: string[];
   bookingUrl?: string;
 };
@@ -26,7 +25,7 @@ export type TimelineEntry = {
 export const config = {
   herName: 'Janeille',
   yourName: 'Jacob',
-  monthsaryDate: 'April 15',
+  monthsaryDate: 'Nov 15',
   relationshipStartDate: '2025-04-15',
   letter: `Happy monthsary, baby.
 
@@ -49,7 +48,6 @@ I love you. Happy monthsary, my favorite person. ♡`,
     { src: '/images/her_laugh.jpeg', alt: 'Janeille smiling and laughing', caption: 'That natural laugh I love.', rotate: '-2deg' },
     { src: '/images/uslookingdumb.jpeg', alt: 'A funny photo of us together', caption: 'Us being completely unserious.', rotate: '2.5deg' },
     { src: '/images/ussmilinglikethetwocats.jpeg', alt: 'A playful photo of us together', caption: 'Two silly little faces.', rotate: '-1deg' },
-    { src: '/images/picjah1.jpg', alt: 'A favorite memory together', caption: 'A little moment I want to keep.', rotate: '3deg' },
     { src: '/images/picjah1.png', alt: 'A favorite portrait memory', caption: 'You make every frame feel warmer.', rotate: '-1.5deg' },
   ] satisfies Photo[],
   loveNotes: [
@@ -61,15 +59,16 @@ I love you. Happy monthsary, my favorite person. ♡`,
     'I would still choose you, even on the most ordinary days.',
   ],
   timeline: [
-    { date: 'Add your date', title: 'The day we met', detail: 'Tell the story of where your little story began.' },
-    { date: 'Add your date', title: 'Our first date', detail: 'Add the place, the feeling, or the tiny detail you still remember.' },
-    { date: 'Add your date', title: 'Our favorite memory', detail: 'Write down a memory you both want to keep close.' },
-    { date: 'Add your date', title: 'Our first monthsary', detail: 'Add the date and what made it feel like yours.' },
-    { date: 'Today', title: 'Another month of us', detail: 'Still choosing each other, one soft day at a time.' },
+    { date: 'The night we made it official', title: 'I asked you to be my girlfriend', detail: 'On a mountain with the city glowing below us, I asked you to be mine. The view was beautiful, but you were still my favorite part of it.' },
+    { date: 'Since then', title: 'The city lights got competition', detail: 'Every laugh, silly photo, random plan, and ordinary day gave me another reason to be grateful that you said yes.' },
+    { date: 'Today', title: 'Still my favorite yes', detail: 'Another month of choosing each other—and still absolutely no regrets about making you my favorite person to annoy.' },
   ] satisfies TimelineEntry[],
   music: {
     filename: 'ang-wakas.mp3',
-    label: 'Ang Wakas',
+    label: 'Libu-Libong Buwan Uuwian',
+    // Paste a hosted MP3 URL here to use the same approach as the anniversary site.
+    // Leave empty to use public/music/ang-wakas.mp3 instead.
+    url: 'https://res.cloudinary.com/dpkcv1sne/video/upload/v1794723572/Libu-Libong_Buwan_Uuwian_-_Kyle_Raphael_Official_Music_Video_f3mgjt.mp3',
   },
 };
 
@@ -81,7 +80,6 @@ export const activities: Activity[] = [
     concept: 'A DIY baking experience',
     description: "Let's make something sweet together. We might not be professional bakers, but I think whatever we make will be special because we made it together.",
     image: '/images/activity-baking.svg',
-    budget: '₱___ per person (estimate)',
     activities: ['Baking desserts', 'Decorating baked creations', 'Experimenting with flavors'],
   },
   {
@@ -91,7 +89,6 @@ export const activities: Activity[] = [
     concept: 'A creative café date',
     description: "Let's turn something simple into a little masterpiece. And even if our creations look funny, at least we made them together.",
     image: '/images/activity-cafe.svg',
-    budget: '₱___ per person (estimate)',
     activities: ['Cake painting', 'Decorating desserts', 'DIY flower arrangement'],
   },
   {
@@ -101,7 +98,6 @@ export const activities: Activity[] = [
     concept: 'A pottery and ceramics experience',
     description: "Let's make something that we can keep. Something that reminds us of this little chapter of our story.",
     image: '/images/activity-pottery.svg',
-    budget: '₱___ per person (estimate)',
     activities: ['Hand-building pottery', 'Creating matching mugs', 'Ceramic painting'],
   },
   {
@@ -111,7 +107,6 @@ export const activities: Activity[] = [
     concept: 'A guided baking experience',
     description: "Let's learn something new together and make something sweet that we can enjoy afterward.",
     image: '/images/activity-cake.svg',
-    budget: '₱___ per person (estimate)',
     activities: ['Bento cake baking', 'Cupcake baking', 'Cake decorating'],
   },
 ];
