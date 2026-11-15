@@ -70,6 +70,9 @@ I love you. Happy monthsary, my favorite person. ♡`,
     // Leave empty to use public/music/ang-wakas.mp3 instead.
     url: 'https://res.cloudinary.com/dpkcv1sne/video/upload/v1794723572/Libu-Libong_Buwan_Uuwian_-_Kyle_Raphael_Official_Music_Video_f3mgjt.mp3',
   },
+  notifications: {
+    formspreeEndpoint: 'https://formspree.io/f/mkjrjwvy',
+  },
 };
 
 export const activities: Activity[] = [
